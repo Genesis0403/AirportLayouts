@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="statusTextSize">25sp</dimen>
+    <dimen name="marginTop">16dp</dimen>
+    <dimen name="marginStart">32dp</dimen>
+    <dimen name="dateTextSize">20sp</dimen>
+    <dimen name="freeSeatsTextSize">12sp</dimen>
+    <dimen name="freeSeatsMarginTop">76dp</dimen>
+    <dimen name="costTextSize">22sp</dimen>
+    <dimen name="marginEnd">32dp</dimen>
+    <dimen name="costMarginTop">28dp</dimen>
+    <dimen name="flightMarginTop">118dp</dimen>
+    <dimen name="pointTextSize">38sp</dimen>
+    <dimen name="marginBetweenElements">4dp</dimen>
+    <dimen name="fromPointMarginTop">20dp</dimen>
+    <dimen name="toPointMarginTop">16dp</dimen>
+    <dimen name="timeTextSize">18sp</dimen>
+    <dimen name="takeOffTimeSize">20dp</dimen>
+    <dimen name="arrowMargin">6dp</dimen>
+    <dimen name="flightTimeTextSize">16sp</dimen>
+    <dimen name="lineMargin">16dp</dimen>
+    <dimen name="lineHeight">1dp</dimen>
+    <dimen name="lineMarginTop">240dp</dimen>
+    <dimen name="totalFlightTimeMarginTop">194dp</dimen>
+    <dimen name="flightImageMargin">60dp</dimen>
+    <dimen name="flightTimeBottomMargin">20dp</dimen>
+</resources>

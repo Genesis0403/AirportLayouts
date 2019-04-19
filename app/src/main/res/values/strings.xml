@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">AirportLayouts</string>
+    <string name="fragment_1">FRAGMENT 1</string>
+    <string name="fragment_2">FRAGMENT 2</string>
+    <string name="departStatus">DEPART</string>
+    <string name="departDate">16 SEP 2019</string>
+    <string name="returnFreeSeats">Free seats:</string>
+    <string name="departCost">435</string>
+    <string name="departFrom">MSQ</string>
+    <string name="departTo">FLO</string>
+    <string name="flightImage">flightImage</string>
+    <string name="departFreeSeatsAmount">3</string>
+    <string name="currency">BYN</string>
+    <string name="departTimeFrom">00:20</string>
+    <string name="departTimeTo">09:20</string>
+    <string name="departFlightTime">9:00</string>
+    <string name="returnStatus">RETURN</string>
+    <string name="returnDate">17 SEP 2019</string>
+    <string name="returnCost">488</string>
+    <string name="returnFrom">FLO</string>
+    <string name="returnTo">MSQ</string>
+    <string name="returnTimeTo">09:20</string>
+    <string name="returnTimeFrom">05:10</string>
+    <string name="returnTotalFlightTime">4:10</string>
+    <string name="returnFreeSeatsAmount">5</string>
+</resources>
