@@ -122,7 +122,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/departTo"
             android:layout_marginTop="@dimen/flightMarginTop"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toEndOf="@+id/flightImage"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/flightImage"
             android:layout_marginStart="@dimen/flightImageMargin"/>
     <TextView
             android:text="@string/departTimeFrom"
@@ -130,13 +131,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/departTimeStart"
-            android:layout_marginTop="@dimen/totalFlightTimeMarginTop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintEnd_toStartOf="@+id/departTakeOffImage"
             android:layout_marginStart="@dimen/marginStart"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintBottom_toTopOf="@id/departLine"
+            android:layout_marginBottom="@dimen/flightTimeBottomMargin"
+    />
     <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -177,7 +179,6 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toStartOf="@+id/departLandImage"
             app:layout_constraintTop_toTopOf="@+id/departArrow"
-            android:layout_marginStart="@dimen/marginBetweenElements"
             app:layout_constraintBottom_toBottomOf="@+id/departArrow"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintVertical_bias="0.2"/>
@@ -209,7 +210,6 @@
             app:layout_constraintVertical_bias="0.2"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintEnd_toStartOf="@+id/departTotalTime"
-            app:layout_constraintStart_toStartOf="parent"
     />
     <TextView
             android:text="@string/departFlightTime"
@@ -218,12 +218,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/departTotalTime"
             app:layout_constraintHorizontal_chainStyle="packed"
-            app:layout_constraintStart_toEndOf="@+id/departClockImage"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="@dimen/totalFlightTimeMarginTop"
             android:layout_marginEnd="@dimen/marginEnd"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintBottom_toTopOf="@id/departLine"
+            android:layout_marginBottom="@dimen/flightTimeBottomMargin"/>
 
     <View
             android:layout_width="match_parent"
@@ -261,7 +260,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintBaseline_toBaselineOf="@+id/returnStatus"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="@id/departLine"
             android:layout_marginEnd="@dimen/marginEnd"
     />
     <TextView
@@ -319,6 +318,18 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintHorizontal_chainStyle="packed"/>
 
+    <TextView
+            android:text="@string/returnFrom"
+            android:textSize="@dimen/pointTextSize"
+            android:textColor="@color/pointColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/returnFrom"
+            android:layout_marginEnd="@dimen/flightImageMargin"
+            app:layout_constraintEnd_toStartOf="@+id/returnFlightImage"
+            android:layout_marginTop="@dimen/flightMarginTop"
+            app:layout_constraintTop_toBottomOf="@+id/departLine"/>
+
 
     <ImageView
             android:id="@+id/returnFlightImage"
@@ -334,16 +345,17 @@
             app:layout_constraintHorizontal_bias="0.498"
     />
     <TextView
-            android:text="@string/returnFrom"
+            android:text="@string/returnTo"
             android:textSize="@dimen/pointTextSize"
             android:textColor="@color/pointColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/returnFrom"
-            android:layout_marginEnd="@dimen/flightImageMargin"
-            app:layout_constraintEnd_toStartOf="@+id/returnFlightImage"
+            android:id="@+id/returnTo"
+            app:layout_constraintTop_toBottomOf="@+id/departLine"
             android:layout_marginTop="@dimen/flightMarginTop"
-            app:layout_constraintTop_toBottomOf="@+id/departLine"/>
+            app:layout_constraintStart_toEndOf="@+id/returnFlightImage"
+            android:layout_marginStart="@dimen/flightImageMargin"/>
+
     <TextView
             android:text="@string/returnTimeFrom"
             android:textSize="@dimen/timeTextSize"
@@ -397,7 +409,6 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintEnd_toStartOf="@+id/returnLandImage"
             app:layout_constraintTop_toTopOf="@+id/returnArrow"
-            android:layout_marginStart="@dimen/marginBetweenElements"
             app:layout_constraintBottom_toBottomOf="@+id/returnArrow"
             app:layout_constraintHorizontal_chainStyle="packed"
             app:layout_constraintVertical_bias="0.2"/>
@@ -446,6 +457,7 @@
             app:layout_constraintBottom_toTopOf="@+id/returnLine"
             android:layout_marginBottom="@dimen/flightTimeBottomMargin"/>
 
+
     <View
             android:layout_width="match_parent"
             android:layout_height="@dimen/lineHeight"
@@ -458,16 +470,5 @@
             android:id="@+id/returnLine"
             app:layout_constraintTop_toBottomOf="@+id/departLine"
             android:layout_marginTop="@dimen/lineMarginTop"/>
-    <TextView
-            android:text="@string/returnTo"
-            android:textSize="@dimen/pointTextSize"
-            android:textColor="@color/pointColor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/returnTo"
-            app:layout_constraintTop_toBottomOf="@+id/departLine"
-            android:layout_marginTop="@dimen/flightMarginTop"
-            app:layout_constraintStart_toEndOf="@+id/returnFlightImage"
-            android:layout_marginStart="@dimen/flightImageMargin"/>
 
 </android.support.constraint.ConstraintLayout>
