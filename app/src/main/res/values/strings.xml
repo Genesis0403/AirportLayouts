@@ -23,4 +23,5 @@
     <string name="returnTimeFrom">05:10</string>
     <string name="returnTotalFlightTime">4:10</string>
     <string name="returnFreeSeatsAmount">5</string>
+    <string name="confirmedText">Confirmed!</string>
 </resources>
