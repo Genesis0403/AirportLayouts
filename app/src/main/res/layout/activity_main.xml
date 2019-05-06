@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/whiteColor"
+        android:background="@color/backgroundColor"
         tools:context=".MainActivity"
         android:orientation="vertical">
 
@@ -22,9 +22,9 @@
             android:orientation="horizontal">
         <Button
                 android:text="@string/fragment_1"
-                android:background="@color/greenColor"
-                android:textColor="@color/whiteColor"
+                android:textColor="@color/fragmentButton"
                 android:textAlignment="center"
+                android:background="@color/pointColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/constraintButton"
@@ -35,9 +35,9 @@
                 app:layout_constraintTop_toTopOf="parent"/>
         <Button
                 android:text="@string/fragment_2"
-                android:textColor="@color/whiteColor"
-                android:background="@color/greenColor"
+                android:textColor="@color/fragmentButton"
                 android:textAlignment="center"
+                android:background="@color/pointColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/nonConstraintButton"

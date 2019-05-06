@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#212121</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="departColor">#cc0000</color>
+    <color name="textColor">#BBBBBB</color>
+    <color name="costColor">#D2D2D2</color>
+    <color name="pointColor">#5C6BC0</color>
+    <color name="slightlyGrayColor">#D2D2D2</color>
+    <color name="returnColor">#388E3C</color>
+    <color name="backgroundColor">#303030</color>
+    <color name="fragmentButton">#D2D2D2</color>
+</resources>
