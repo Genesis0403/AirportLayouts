@@ -23,5 +23,7 @@
     <string name="returnTimeFrom">05:10</string>
     <string name="returnTotalFlightTime">4:10</string>
     <string name="returnFreeSeatsAmount">5</string>
-    <string name="confirmedText">Confirmed!</string>
+    <string name="themeChanged">Theme changed!</string>
+    <string name="changed_to_light">Change to light</string>
+    <string name="changed_to_night">Change to night</string>
 </resources>

@@ -6,7 +6,7 @@
     <TextView
             android:text="@string/departStatus"
             android:textSize="@dimen/statusTextSize"
-            android:textColor="@color/redColor"
+            android:textColor="@color/departColor"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
             android:id="@+id/departDate"
             android:text="@string/departDate"
             android:textSize="@dimen/dateTextSize"
-            android:textColor="@color/grayColor"
+            android:textColor="@color/textColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/departStatus"
@@ -38,6 +38,7 @@
         <TextView
                 android:text="@string/returnFreeSeats"
                 android:textSize="@dimen/freeSeatsTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departFreeSeats"
@@ -47,6 +48,7 @@
         <TextView
                 android:text="@string/departFreeSeatsAmount"
                 android:textSize="@dimen/freeSeatsTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departSeatsNumber"
@@ -64,7 +66,7 @@
                 android:text="@string/departCost"
                 android:textSize="@dimen/costTextSize"
                 android:textStyle="bold"
-                android:textColor="@color/darkGrayColor"
+                android:textColor="@color/costColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departCost"
@@ -74,6 +76,7 @@
         <TextView
                 android:text="@string/currency"
                 android:textSize="@dimen/costTextSize"
+                android:textColor="@color/costColor"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -92,7 +95,7 @@
         <TextView
                 android:text="@string/departFrom"
                 android:textSize="@dimen/pointTextSize"
-                android:textColor="@color/greenColor"
+                android:textColor="@color/pointColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departFrom"
@@ -110,7 +113,7 @@
         <TextView
                 android:text="@string/departTo"
                 android:textSize="@dimen/pointTextSize"
-                android:textColor="@color/greenColor"
+                android:textColor="@color/pointColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departTo"/>
@@ -129,6 +132,7 @@
         <TextView
                 android:text="@string/departTimeFrom"
                 android:textSize="@dimen/timeTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departTakeOffTime"
@@ -152,6 +156,7 @@
         <TextView
                 android:text="@string/departTimeTo"
                 android:textSize="@dimen/timeTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departLandTime"
@@ -184,6 +189,7 @@
         <TextView
                 android:text="@string/departFlightTime"
                 android:textSize="@dimen/flightTimeTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/departDuration"/>
@@ -206,7 +212,7 @@
             android:text="@string/returnStatus"
             android:textSize="@dimen/statusTextSize"
             android:textStyle="bold"
-            android:textColor="@color/blueColor"
+            android:textColor="@color/returnColor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/marginStart"
@@ -217,7 +223,7 @@
             android:id="@+id/returnDate"
             android:text="@string/returnDate"
             android:textSize="@dimen/dateTextSize"
-            android:textColor="@color/grayColor"
+            android:textColor="@color/textColor"
             android:textAlignment="@+id/departStatus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -239,6 +245,7 @@
         <TextView
                 android:text="@string/returnFreeSeats"
                 android:textSize="@dimen/freeSeatsTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnFreeSeats"/>
@@ -246,6 +253,7 @@
         <TextView
                 android:text="@string/returnFreeSeatsAmount"
                 android:textSize="@dimen/freeSeatsTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnSeatsNumber"
@@ -264,7 +272,7 @@
                 android:text="@string/returnCost"
                 android:textSize="@dimen/costTextSize"
                 android:textStyle="bold"
-                android:textColor="@color/darkGrayColor"
+                android:textColor="@color/costColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnCost"
@@ -273,6 +281,7 @@
         <TextView
                 android:text="@string/currency"
                 android:textSize="@dimen/costTextSize"
+                android:textColor="@color/costColor"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -291,7 +300,7 @@
         <TextView
                 android:text="@string/returnFrom"
                 android:textSize="@dimen/pointTextSize"
-                android:textColor="@color/greenColor"
+                android:textColor="@color/pointColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnFrom"
@@ -309,7 +318,7 @@
         <TextView
                 android:text="@string/returnTo"
                 android:textSize="@dimen/pointTextSize"
-                android:textColor="@color/greenColor"
+                android:textColor="@color/pointColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnTo"/>
@@ -327,6 +336,7 @@
         <TextView
                 android:text="@string/returnTimeFrom"
                 android:textSize="@dimen/timeTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnTakeOffTime"
@@ -350,6 +360,7 @@
         <TextView
                 android:text="@string/returnTimeTo"
                 android:textSize="@dimen/timeTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnLandTime"
@@ -382,6 +393,7 @@
         <TextView
                 android:text="@string/returnTotalFlightTime"
                 android:textSize="@dimen/flightTimeTextSize"
+                android:textColor="@color/textColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/returnDuration"/>
@@ -408,7 +420,7 @@
             android:layout_alignTop="@id/returnLine"
             android:layout_marginTop="@dimen/marginTop"
             android:layout_centerHorizontal="true"
-            android:backgroundTint="@color/greenColor"
+            android:backgroundTint="@color/pointColor"
     />
 
 </RelativeLayout>

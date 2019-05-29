@@ -3,11 +3,12 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="redColor">#cc0000</color>
-    <color name="grayColor">#8e8e8e</color>
-    <color name="darkGrayColor">#737373</color>
-    <color name="greenColor">#77ca27</color>
+    <color name="departColor">#cc0000</color>
+    <color name="textColor">#808080</color>
+    <color name="costColor">#737373</color>
+    <color name="pointColor">#77ca27</color>
     <color name="slightlyGrayColor">#D2D2D2</color>
-    <color name="blueColor">#0099cc</color>
-    <color name="whiteColor">#fafafa</color>
+    <color name="returnColor">#0099cc</color>
+    <color name="backgroundColor">#fafafa</color>
+    <color name="fragmentButton">#fafafa</color>
 </resources>

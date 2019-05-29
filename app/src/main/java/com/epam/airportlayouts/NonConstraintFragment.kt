@@ -16,6 +16,13 @@ import kotlinx.android.synthetic.main.nonconstraint_layout.*
 
 class NonConstraintFragment : Fragment() {
 
+    private var nightThemeListener: NightThemeChangeListener? = null
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        nightThemeListener = context as NightThemeChangeListener
+    }
+
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -66,7 +73,7 @@ class NonConstraintFragment : Fragment() {
     }
 
     private fun initFloatingActionButton() {
-        Toast.makeText(context, getString(R.string.confirmedText), Toast.LENGTH_SHORT).show()
+        nightThemeListener?.onThemeChange()
     }
 
     companion object {
